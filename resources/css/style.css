@@ -254,11 +254,6 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
-}
-@media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
@@ -291,7 +286,10 @@ footer .copyright {
   }
 }
 
-
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
